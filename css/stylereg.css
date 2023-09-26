@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    /*url(2imagen.jpg) imagen de fondo*/
+    color: #797979;
+    background: #eeeeee;
+    font-family: 'Lato', sans-serif;
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size:14px !important;
+   
+}
+* {
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box;
+    width: auto;
+}
+.cabecera{
+    background: #051E3B;
+}
+.contenedor{
+    width: 100%;
+    padding: 5px;
+}
+.formulario{
+    align-content: center;
+    background: url(2imagen.jpg);
+    margin-top: 50px;
+    padding: 10px;
+}
+a.logo {
+    font-size: 25px;
+    font-weight: 300;
+    color: #fed189;
+    margin-top: 50px;
+    text-transform: uppercase;
+
+}
+a.logo:hover, a.logo:focus {
+
+    text-decoration: none;
+
+    outline: none;
+
+}
+
+a.logo span {
+
+    color: #688a7e;
+
+}
+.lite{
+
+    color: #00a0df !important;
+
+}
+
+header{
+    width: 100%;
+    text-align: left;
+}
+header a{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 30px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+    font-size: 20px;
+    width: 75%;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+}
+.input-contenedor{
+    margin-top: 20px;
+    border: 1px solid transparent;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: cadetblue;
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+      color: #1a2537;
+    font-weight: 600;
+}
+.link:hover{
+     color: cadetblue;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
